@@ -18,6 +18,11 @@ namespace derp_ironman
     [ProgId("TestDll.Test")]
     public class Test : _Test
     {
-        public string HelloWorld { get { return "Hello, World! "; } }
+        public string HelloWorld 
+        { 
+            get { 
+                return "Hello, World! "; 
+            } 
+        }
     }
 }
